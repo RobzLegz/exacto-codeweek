@@ -157,7 +157,7 @@ const data = [
 const LabContainer = () => {
   return (
     <div className="flex flex-col w-full pt-40">
-      <h1 className="text-4xl mb-4">Izproti kā lietas darbojas 👀</h1>
+      <h1 className="text-4xl mb-4">Understand how things work 👀</h1>
 
       {data.map((topic, i) => (
         <div className="flex flex-col mt-6" key={i}>
